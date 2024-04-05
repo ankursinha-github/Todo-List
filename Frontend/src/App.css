@@ -1,0 +1,14 @@
+.Todo_box {
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    width: 50vw;
+    height: 80vh;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

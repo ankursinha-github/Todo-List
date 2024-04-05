@@ -1,0 +1,33 @@
+.Input_Box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+input {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    flex: 1;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.Input_Box button {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    background-color: white;
+    border: 1px solid white;
+    padding: 0.43rem 1rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.Input_Box button:hover {
+    cursor: pointer;
+    border: 1px solid gray;
+}
